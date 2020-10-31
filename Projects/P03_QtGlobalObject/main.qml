@@ -9,6 +9,11 @@ Window {
 
     property var fontsAvailable: Qt.fontFamilies()
 
+    property string myProp: "Vijay"
+    onMyPropChanged: {
+        console.log("myProp changed to "+myProp)
+    }
+
     Rectangle{
         id: rootRectID
         width: 100;height: 75
