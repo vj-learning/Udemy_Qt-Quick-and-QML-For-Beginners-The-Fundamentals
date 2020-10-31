@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/LAN Standards.png</file>
+    </qresource>
+</RCC>
