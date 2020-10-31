@@ -9,10 +9,12 @@ Window {
     title: qsTr("Rectangle Demo App")
 
     property string textToShow: "Initial Text"
+    property string resultColor2: "yellow"
+    property color resultColor: "yellow"
 
     Row{
         id:row1Id
-        x: 50
+        x: 20
         y: 15
         width: 400;height: 135
         spacing: 20
@@ -27,7 +29,7 @@ Window {
                 onClicked: {
                     console.log("App: Red Rectangle is clicked ...")
                     textToShow="Red"
-                    row2ResultCircleId.color="red"
+                    resultColor="red"
                 }
             }
         }
@@ -42,7 +44,7 @@ Window {
                 onClicked: {
                     console.log("App: Green Rectangle is clicked ...")
                     textToShow="Green"
-                    row2ResultCircleId.color="green"
+                    resultColor="green"
                 }
             }
         }
@@ -57,7 +59,24 @@ Window {
                 onClicked: {
                     console.log("App: Blue Rectangle is clicked ...")
                     textToShow="Blue"
-                    row2ResultCircleId.color="blue"
+                    resultColor="blue"
+                }
+            }
+        }
+
+        Rectangle{
+            id:row1GoldRectId
+            width: 100;height: 130
+            color: "gold"
+            radius: 20
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+                    console.log("App: Gold Rectangle is clicked ...")
+                    resultTextId.text=Qt.binding(function(){
+                        return "keep Property Binding with Qt.binding()"
+                    })
+                    resultColor="gold"
                 }
             }
         }
@@ -73,7 +92,7 @@ Window {
             id:row2ResultCircleId
             width: 100;height: 100;
             radius: 100
-            color: "yellow"
+            color: resultColor
 
             Text {
                 id: resultTextId
