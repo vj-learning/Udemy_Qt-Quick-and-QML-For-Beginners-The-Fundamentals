@@ -10,6 +10,7 @@ Window {
     property var fontsAvailable: Qt.fontFamilies()
 
     property string myProp: "Vijay"
+    // Default handler to a property
     onMyPropChanged: {
         console.log("myProp changed to "+myProp)
     }
