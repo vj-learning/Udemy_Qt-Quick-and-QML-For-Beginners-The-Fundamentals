@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MouseAreaDemo.qml</file>
+        <file>TextEditDemo.qml</file>
+        <file>TextInputDemo.qml</file>
+        <file>KeyAttachedDemo.qml</file>
+    </qresource>
+</RCC>
