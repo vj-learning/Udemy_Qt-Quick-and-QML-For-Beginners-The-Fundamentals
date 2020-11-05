@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>AnchorsPositioning.qml</file>
+        <file>GridDemo.qml</file>
+        <file>GridLayoutDemo.qml</file>
+        <file>FlowDemo.qml</file>
+    </qresource>
+</RCC>
