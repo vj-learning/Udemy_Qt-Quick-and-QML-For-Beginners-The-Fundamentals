@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>ButtonDemo.qml</file>
+        <file>CheckBoxDemo.qml</file>
+        <file>ComboBoxDemo.qml</file>
+        <file>DelayButtonDemo.qml</file>
+        <file>DialDemo.qml</file>
+        <file>FrameDemo.qml</file>
+        <file>GroupBoxDemo.qml</file>
+        <file>SwipeViewAndPageIndicatorDemo.qml</file>
+        <file>ProgressBarDemo.qml</file>
+        <file>RangeSliderDemo.qml</file>
+        <file>FlickableScrollBarDemo.qml</file>
+        <file>SliderDemo.qml</file>
+        <file>SwitchDemo.qml</file>
+        <file>PageSwipeViewAndTabBar.qml</file>
+        <file>TextAreaDemo.qml</file>
+        <file>TextFieldDemo.qml</file>
+        <file>SplitViewDemo.qml</file>
+        <file>SpinBoxDemo.qml</file>
+        <file>DrawerDemo.qml</file>
+    </qresource>
+</RCC>
