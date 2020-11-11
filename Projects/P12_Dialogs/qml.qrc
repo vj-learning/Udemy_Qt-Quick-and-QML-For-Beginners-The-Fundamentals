@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ColorDialogDemo.qml</file>
+        <file>FileDialogDemo.qml</file>
+        <file>FontDialogDemo.qml</file>
+        <file>MessageDialogDemo.qml</file>
+    </qresource>
+</RCC>
