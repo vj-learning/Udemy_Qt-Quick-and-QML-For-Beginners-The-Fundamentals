@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ListViewModelDelegateDemo.qml</file>
+        <file>InlineModelListViewDemo.qml</file>
+        <file>DecorationsHeaderFooterHighlightsDemo.qml</file>
+        <file>DecorationsSectionsDemo.qml</file>
+        <file>RepeaterDemo.qml</file>
+    </qresource>
+</RCC>
