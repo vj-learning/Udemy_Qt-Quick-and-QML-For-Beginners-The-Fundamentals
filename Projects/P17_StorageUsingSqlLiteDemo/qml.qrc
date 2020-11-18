@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>sqlLiteDatabase.js</file>
+    </qresource>
+</RCC>
