@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>HttpDataUsingXHR_Demo.qml</file>
+        <file>XHR_DataFetch.js</file>
+        <file>RestApiConsumeDemo.qml</file>
+    </qresource>
+</RCC>
